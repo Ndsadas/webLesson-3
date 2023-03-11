@@ -1,0 +1,29 @@
+
+.header {
+	color: red;
+	text-align: center;
+}
+
+.cards {
+    margin: 50px 65px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+		width: 100%;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0;
+}
+
+.card_img,
+.card_video {
+	width: 300px;
+	height: 250px;
+}
+
+.card-text {
+	padding: 20px 0;
+}
